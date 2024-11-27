@@ -1,16 +1,16 @@
 [
     {
         "name":"Introduction to the Course",
-        "description": "Getting familiar with the platform.",
+        "description": "Getting familiar with esp32",
         "sn": 0,
         "str_id":"module_0",
         "lessons":[
             {
-                "str_id": "lesson_0",
-                "name": "Lesson example",
-                "url": "https://raw.githubusercontent.com/autolab-fi/course-template/main/lessons/module-1/lesson_example.md",
+                "str_id": "sandbox",
+                "name": "Sandbox",
+                "url": "https://raw.githubusercontent.com/ShulcN/ondroid-course-teste/main/lessons/module-1/sandbox.md",
                 "sn": 0,
-                "description": "Example of the lesson."
+                "description": "sandbox lesson, there you can test some code"
             }
         ]
     }
