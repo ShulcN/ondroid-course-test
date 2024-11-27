@@ -1,11 +1,11 @@
 {
-    "fullCourseName":"full name of the course",
-    "shortCourseName":"CourseName", 
-    "shortDescription":"It is short description. It should be up to 160 characters.",
-    "fullDescription":"it is full description. It should be about 500 characters.",
-    "imageSmall":"https://github.com/autolab-fi/course-template/blob/main/images/course-info/image_640_360.jpg?raw=true",
-    "imageBig":"https://github.com/autolab-fi/course-template/blob/main/images/course-info/image_1920_1080.jpg?raw=true",
+    "fullCourseName":"Shulc's test course",
+    "shortCourseName":"Shulc Test", 
+    "shortDescription":"Course - programming esp32",
+    "fullDescription":"Course for esp32",
+    "imageSmall":"https://github.com/ShulcN/ondroid-course-test/blob/main/images/course-info/image_640_360.jpg?raw=true",
+    "imageBig":"https://github.com/ShulcN/ondroid-course-test/blob/main/images/course-info/image_1920_1080.jpg?raw=true",
     "workload":"0 hours",
-    "requirements":"Knowledge prerequisites for students before starting the course.",
-    "programmingLanguage": "python"
+    "requirements":"No",
+    "programmingLanguage": "cpp"
 }
