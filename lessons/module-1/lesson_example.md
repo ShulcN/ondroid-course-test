@@ -1,46 +1,54 @@
-# Lesson 1: Example of the Lesson
+# **Lesson 1: Sandbox**
 
-## Objective
-Become familiar with the basic styling of Markdown files for lessons.
+## **Objective**  
+Test the setup of the ESP32 microcontroller and familiarize yourself with basic peripheral control.
 
-## Introduction
-Markdown is a lightweight markup language with plain text formatting syntax. It is designed to be easy to read and write, and it's often used to format readme files, write messages in online discussion forums, and create rich text using a plain text editor.
 
-## Theory
+## **Introduction**  
 
-### Example of an Image in Text:
+In this setup, you have access to some peripherals, including a **seven-segment display**, which allows you to display numeric values.  
 
-![robot](https://github.com/autolab-fi/course-template/blob/main/images/module-1/image_for_lesson_1.jpg?raw=true)
+Below is an image of the seven-segment display:  
 
-### Example of List Formatting:
-1. Examples of different fonts and unordered lists:
-    - *Italic*
-    - **Bold**
-    - `Code`
-    - ***Bold Italic***
-    - ***`Bold Italic Code`***
-    - ...
-2. Example code block:
-    ```
-    print("Hello, world!")
-    ```
-    Or specify a language to highlight syntax:
-    ```cpp
-    #include <iostream>
-    int main() {
-      std::cout << "Hello, world!" << std::endl;
-      return 0;
-    }
-    ```
-3. Example of a Table:
-    | Header 1   | Header 2   | Header 3   |
-    |------------|------------|------------|
-    | Cell 1     | Cell 2     | Cell 3     |
-    | Cell 4     | Cell 5     | Cell 6     |
-    | Cell 7     | Cell 8     | Cell 9     |
+![Seven-Segment Display](https://github.com/autolab-fi/course-template/blob/main/images/module-1/image_for_lesson_1.jpg?raw=true)  
 
-## Assignment
-There is no assignment in this lesson.
+### **How the Display Works**  
+You can control each segment of the display by sending **HIGH** or **LOW** signals to the following pins on the ESP32:  
 
-## Conclusion
-For more information, you can refer to: [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
+| **Segment Pin** | **ESP32 Pin** |
+|:---------------:|:-------------:|
+| A               | 19            |
+| B               | 21            |
+| C               | 25            |
+| D               | 27            |
+| E               | 33            |
+| F               | 23            |
+| G               | 22            |
+| Decimal Point   | 26            |
+
+Each pin corresponds to a specific segment of the display. By activating the correct combination of segments, you can display numbers from 0 to 9.
+
+
+## **Assignment**  
+
+1. **Basic Task:**  
+   Display any number (0–9) on the seven-segment display.  
+
+2. **Challenge Task:**  
+   Make the displayed number **blink** by alternating between turning it on and off with a 1-second delay.
+
+### **Hints:**  
+- Use the GPIO library in the Arduino IDE or another preferred programming environment to control the pins.  
+- You can use the `digitalWrite()` function to set a pin HIGH or LOW.  
+- To implement blinking, use the `delay()` function to create a pause between turning the display on and off.
+
+
+## **Conclusion**  
+Once you have successfully displayed and blinked the number, the test is complete.  
+
+In this lesson, you’ve:  
+- Set up and tested the ESP32.  
+- Controlled a seven-segment display.  
+- Created a simple blinking effect.  
+
+You are now ready to move on to more advanced peripheral control!
