@@ -6,9 +6,9 @@
         "str_id":"module_0",
         "lessons":[
             {
-                "str_id": "sandbox",
+                "str_id": "draw",
                 "name": "Sandbox",
-                "url": "https://raw.githubusercontent.com/ShulcN/ondroid-course-teste/main/lessons/module-1/sandbox.md",
+                "url": "https://raw.githubusercontent.com/ShulcN/ondroid-course-test/refs/heads/main/lessons/module-1/lesson_example.md",
                 "sn": 0,
                 "description": "sandbox lesson, there you can test some code"
             }
