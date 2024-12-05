@@ -10,7 +10,7 @@ In this setup, you have access to some peripherals, including a **seven-segment 
 
 Below is an image of the seven-segment display:  
 
-![Seven-Segment Display](https://github.com/autolab-fi/course-template/blob/main/images/module-1/image_for_lesson_1.jpg?raw=true)  
+![Seven-Segment Display](https://github.com/ShulcN/ondroid-course-test/blob/main/images/course-info/image_for_lesson_1.png?raw=true)  
 
 ### **How the Display Works**  
 You can control each segment of the display by sending **HIGH** or **LOW** signals to the following pins on the ESP32:  
