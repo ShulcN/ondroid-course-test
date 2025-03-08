@@ -4,8 +4,10 @@ import time
 
 def draw(frame, testData, robot):
   if not testData:
-    testData = {"counter": -1}
-    testData = time.time()+10
+    testData = {
+      "counter": -1,
+      "end_time": time.time()+10
+    }
   testData["counter"] += 1
   text_for_output = f"Counter value: {testData['counter']}"
   frame = cv2.putText(frame, text_for_output, (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 
