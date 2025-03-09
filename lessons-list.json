@@ -14,5 +14,21 @@
                 "template":"void setup(){\n\tpinMode(23, OUTPUT);\n\tpinMode(22, OUTPUT);\n\tpinMode(21, OUTPUT);\n\tpinMode(19, OUTPUT);\n\tpinMode(33, OUTPUT);\n\tpinMode(25, OUTPUT);\n\tpinMode(26, OUTPUT);\n\tpinMode(27, OUTPUT);\n\tdigitalWrite(23, HIGH);\n\tdigitalWrite(22, HIGH);\n\tdigitalWrite(21, HIGH);\n\tdigitalWrite(19, HIGH);\n\tdigitalWrite(33, HIGH);\n\tdigitalWrite(25, HIGH);\n\tdigitalWrite(26, HIGH);\n\tdigitalWrite(27, HIGH);\n}\nvoid loop() {}"
             }
         ]
+    },
+    {
+        "name":"Module 2",
+        "description": "Module 2 for test",
+        "sn": 1,
+        "str_id":"module_1",
+        "lessons":[
+            {
+                "str_id": "text",
+                "name": "Text",
+                "url": "https://raw.githubusercontent.com/ShulcN/ondroid-course-test/refs/heads/main/lessons/module-2/test.md",
+                "sn": 0,
+                "description": "lesson text",
+                "template":"void setup() {}\nvoid loop() {}"
+            }
+        ]
     }
 ]
