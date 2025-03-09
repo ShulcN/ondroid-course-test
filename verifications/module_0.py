@@ -9,7 +9,7 @@ def draw(frame, testData, robot):
     }
   testData["counter"] += 1
   text_for_output = f"Counter value: {testData['counter']}"
-  frame = robot.draw_info(frame);
+  frame = robot.draw_info(frame)
   result = {
     "success": True,
     "description": "Perfect!",
